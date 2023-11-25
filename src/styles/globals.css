@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply max-w-3xl mt-6 m-auto bg-slate-900 
+    }
+}
