@@ -23,7 +23,7 @@ export const NoteInput = () => {
 
   return (
     <div className="flex lg:space-y-2 sm:my-10 lg:my-10 lg:mx-40">
-      <input className="rounded-lg lg:px-2 sm:ml-10 lg:w-96 focus:outline-none  bg-wheat-brown " onChange={(e) => setNote(e.target.value)} />
+      <input className="rounded-lg lg:px-2 md:ml-10 lg:w-96 focus:outline-none  bg-wheat-brown " onChange={(e) => setNote(e.target.value)} />
       <Plus size={45} className="m-6 bg-wheat-brown rounded-full p-2 font-semibold " onClick={makeNote}>Add</Plus>
     </div>
   );
